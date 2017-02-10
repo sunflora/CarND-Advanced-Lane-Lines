@@ -1,0 +1,15 @@
+pipeline.sketch
+
+source/.idea/*
+source/.ipynb_checkpoints/*
+source/__pycache__/*
+
+source/Untitled.ipynb
+source/buffer.py
+source/frame4.jpg
+source/test.py
+
+output_videos/challenge_video.mp4
+output_videos/harder_challenge_video.mp4
+output_videos/test_video.mp4
+
