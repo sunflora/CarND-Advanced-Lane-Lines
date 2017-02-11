@@ -184,9 +184,9 @@ Rubric 8. Provide a link to your final video output. Your pipeline should perfor
 
 ---
 
-[![Yellow Filtering](./output_videos/project_video_thumbnail.png)](https://youtu.be/xG9KsH1phAk)
+[![Yellow Filtering](./output_videos/project_video_thumbnail.png)](https://youtu.be/16YZvRBuVEE)
 
-If the above image doesn't work, the video can be accessed via this [link](https://youtu.be/xG9KsH1phAk).
+If the above image doesn't work, the video can be accessed via this [link](https://youtu.be/16YZvRBuVEE).
 
 ---
 Rubric 9. Briefly discuss any problems / issues you faced in your implementation of this project. Where will your pipeline likely fail? What could you do to make it more robust?
