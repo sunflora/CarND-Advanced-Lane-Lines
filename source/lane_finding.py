@@ -135,7 +135,7 @@ for t in test_images:
     curve_left_text = "Left lane curvature: " + np.str(np.around(curve_left, decimals=2)) + " m."
     curve_right_text = "Right lane curvature: " + np.str(np.around(curve_right, decimals=2)) + " m."
 
-    image_bottom = img_undistorted.shape[1]
+    image_bottom = img_undistorted.shape[0]
     left_lane_bottom = left_lane_fit[0] * image_bottom ** 2 + left_lane_fit[1] * image_bottom + left_lane_fit[2]
     right_lane_bottom = right_lane_fit[0] * image_bottom ** 2 + right_lane_fit[1] * image_bottom + right_lane_fit[2]
 

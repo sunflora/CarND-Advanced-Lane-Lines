@@ -116,7 +116,7 @@ class LaneFinder:
         curve_left_text = "Radius of Curve (L): " + np.str(np.around(curve_left, decimals=2)) + " m"
         curve_right_text = "Radius of Curve (R): " + np.str(np.around(curve_right, decimals=2)) + " m"
 
-        image_bottom = image.shape[1]
+        image_bottom = image.shape[0]
         left_lane_bottom = left_lane_fit[0] * image_bottom ** 2 + left_lane_fit[1] * image_bottom + left_lane_fit[2]
         right_lane_bottom = right_lane_fit[0] * image_bottom ** 2 + right_lane_fit[1] * image_bottom + right_lane_fit[2]
 
